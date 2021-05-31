@@ -8,7 +8,7 @@ class testCaseAdd(unittest.TestCase):
         self.assertEqual(len(fizzbuzz.fizzbuzz()),100)
 
     def test_fizzbuzz2(self):
-        #tests that the 3rd position in the output array is "fizz"
+        #tests that the 3rd position in the output array is "Fizz"
         self.assertEqual(fizzbuzz.fizzbuzz()[2], "Fizz")
     
 
