@@ -11,7 +11,9 @@ class testCaseAdd(unittest.TestCase):
         #year divisible by 200
         self.assertEqual(leapyear.leapyear(200), False)
 
-    
+    def test_leapyear3(self):
+        #year divisible by 400
+        self.assertEqual(leapyear.leapyear(400), True)
     
 
 
