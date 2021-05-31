@@ -10,6 +10,10 @@ class testCaseAdd(unittest.TestCase):
     def test_fizzbuzz2(self):
         #tests that the 3rd position in the output array is "Fizz"
         self.assertEqual(fizzbuzz.fizzbuzz()[2], "Fizz")
+
+    def test_fizzbuzz3(self):
+        #tests that the 5th position in the output array is "Buzz"
+        self.assertEqual(fizzbuzz.fizzbuzz()[4], "Buzz")
     
 
 
