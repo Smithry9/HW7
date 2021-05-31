@@ -3,9 +3,9 @@ import leapyear
 
 class testCaseAdd(unittest.TestCase):
     #test cases
-    def test_fizzbuzz1(self):
-        #
-        self.assertEqual()
+    def test_leapyear1(self):
+        #year divisible by 4
+        self.assertEqual(leapyear.leapyear(24), True)
 
     
     
